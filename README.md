@@ -12,7 +12,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 
 - Use blue color (Informative) for `SUB_CATEGORY` like `Pending`
 - Use green color (Positive) for `SUB_CATEGORY` like `Feature`, `Low`
-- Use orage color (Notice) for `SUB_CATEGORY` like `In-Progress`, `Refactor`, `Normal`
+- Use orange color (Notice) for `SUB_CATEGORY` like `In-Progress`, `Refactor`, `Normal`
 - Use red color (Negative) for `SUB_CATEGORY` like `Delayed`, `High`, `Bug`, 'Hotfix'
 
 Within each color, you can change color contrast to indicate different importance levels.
