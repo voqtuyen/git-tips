@@ -1,4 +1,4 @@
-# Tips for effective git and team collaboration
+# Tips for effective git
 
 ## Label naming convention
 ### Divide the labels into categories 
