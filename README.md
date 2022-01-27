@@ -45,3 +45,4 @@ Instead of flattening all labels, we could group them into categories: status, t
 
 
 ## Reference
+1. What is sentence case?. https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html
