@@ -43,6 +43,8 @@ Instead of flattening all labels, we could group them into categories: status, t
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 
 
+### Tag
+
 
 ## Reference
 1. What is sentence case?. https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html
