@@ -21,9 +21,10 @@ Within each color, you can change color contrast to indicate different importanc
 ### 2. Issue 
 - Issue titles should also be consistent with `Type` label as much as possible
   - Use `Implement/Add/Create/Build + [FEATURE_NAME]` for `Type:Feature` labels
-  - Use `Fix + [BUG_NAME]` for `Type:Bug` labels
-  - Use `Refactor/Update + [REFACTOR_NAME]` for `Type:Refactor` labels
+  - Use `Fix/ + [BUG_NAME]` for `Type:Bug` labels
+  - Use `Refactor/Update/Change/Improve + [REFACTOR_NAME]` for `Type:Refactor` labels
   - Use `Hotfix + [HOTFIX_NAME]` for `Type:Hotfix` labels
+  - In other cases, you should name the issue title with this pattern: `Verb` + `Noun phrase`
 - Issue body
 
 ### 3. Branch naming
