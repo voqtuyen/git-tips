@@ -1,4 +1,4 @@
-# Tips for effective git
+# Tips for effective git and team collaboration
 
 ## Label naming convention
 ### Divide the labels into categories 
@@ -29,6 +29,6 @@ Instead of flattening all labels, we could group them into categories: status, t
 
 
 ## Merge request title convention
-
+- Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 
 
