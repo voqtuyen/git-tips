@@ -24,7 +24,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 - Use yellow color for SUB_CATEGORY like `In-Progress`, `Refactor`, `Normal`
 - Use red color for SUB_CATEGORY like `Delayed`, `High`, `Bug`
 
-### Branch naming convention
+### 3. Branch naming
 - Branch name should follow `Type` label and the format looks like this: `{feature, bug, refactor, hotfix}/[BRANCH_NAME]`
 - Use lower case for branch naming
 - Use hyphens (-) as separators
@@ -34,20 +34,20 @@ Instead of flattening all labels, we could group them into categories: status, t
   - Type:Refactor -> refactor/proj-init
   - Type:Hotfix -> hotfix/proj-init
 
-### 3. Commit message
+### 4. Commit message
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 
 
 
-### 4. Merge request title
+### 5. Merge request title
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 
 
-### 5. Tag
+### 6. Tag
 
 
 
-### 6. Branching
+### 7. Branching
 
 
 
