@@ -17,7 +17,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 ## Branch naming convention
 - Branch name should follow `Type` label and the format looks like this: `{feature, bug, refactor, hotfix}/[BRANCH_NAME]`
 - Use lower case for branch naming
-- Make sure that label type and branch name are consistent 
+- Make sure that label type and branch name are semantically consistent
   - Type:Feature -> feature/proj-init
   - Type:Bug -> bug/proj-init
   - Type:Refactor -> refactor/proj-init
