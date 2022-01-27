@@ -1,16 +1,6 @@
 # Tips for effective git
 
-### 1. Issue 
-#### Title
-
-
-#### Body
-
-
-#### Due date
-
-
-### 2. Label
+### 1. Label
 #### Divide the labels into categories 
 Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now [MAIN-CATEGORY]_[SUB-CATEGORY]
 - Status: `Status:Open`, `Status:In-Progress`, `Status:Pending`, `Status:Completed`, `Status: Delayed`
@@ -28,10 +18,19 @@ Instead of flattening all labels, we could group them into categories: status, t
 Within each color, you can change color contrast to indicate different importance levels.
 ![Semantic colors](https://spectrum.adobe.com/static/images/color_semantic_desktop@2x_LNW6UD62tQ4a2LEbrcElu_1611634721087.png)
 
+### 2. Issue 
+- Issue titles should also be consistent with `Type` label as much as possible
+  - Use `Implement/Add/Create/Build + [FEATURE_NAME]` for `Type:Feature` labels
+  - Use `Fix + [BUG_NAME]` for `Type:Bug` labels
+  - Use `Refactor/Update + [REFACTOR_NAME]` for `Type:Refactor` labels
+  - Use `Hotfix + [HOTFIX_NAME]` for `Type:Hotfix` labels
+- Issue body
+
 ### 3. Branch naming
 - Branch name should follow `Type` label and the format looks like this: `{feature, bug, refactor, hotfix}/[BRANCH_NAME]`
 - Use lower case for branch naming
 - Use hyphens (-) as separators
+- Use short descriptive branch names
 - Make sure that label type and branch name are semantically consistent
   - Type:Feature -> feature/proj-init
   - Type:Bug -> bug/proj-init
@@ -40,8 +39,6 @@ Within each color, you can change color contrast to indicate different importanc
 
 ### 4. Commit message
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
-
-
 
 ### 5. Merge request title
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
