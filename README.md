@@ -13,7 +13,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 - Use blue color (Informative) for `SUB_CATEGORY` like `Pending`
 - Use green color (Positive) for `SUB_CATEGORY` like `Feature`, `Low`
 - Use orange color (Notice) for `SUB_CATEGORY` like `In-Progress`, `Refactor`, `Normal`
-- Use red color (Negative) for `SUB_CATEGORY` like `Delayed`, `High`, `Bug`, 'Hotfix'
+- Use red color (Negative) for `SUB_CATEGORY` like `Delayed`, `High`, `Bug`, `Hotfix`
 
 Within each color, you can change color contrast to indicate different importance levels.
 ![Semantic colors](https://spectrum.adobe.com/static/images/color_semantic_desktop@2x_LNW6UD62tQ4a2LEbrcElu_1611634721087.png)
