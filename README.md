@@ -42,9 +42,10 @@ Within each color, you can change color contrast to indicate different importanc
 
 ### 4. Commit message
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
+- Folow the pattern `Verb` + `Noun phrase` where verbs are usually `Implement, Add, Fix, Change, Update, Create, Research`
 
-### 5. Merge request title
-- Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
+### 5. Merge request
+- Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization for title
 
 
 ### 6. Tag
