@@ -1,6 +1,16 @@
 # Tips for effective git
 
-## Label naming convention
+## Issue 
+### Title
+
+
+### Body
+
+
+### Due date
+
+
+## Label
 ### Divide the labels into categories 
 Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now [MAIN-CATEGORY]_[SUB-CATEGORY]
 - Status: `Status:Open`, `Status:In-Progress`, `Status:Pending`, `Status:Completed`, `Status: Delayed`
@@ -24,12 +34,12 @@ Instead of flattening all labels, we could group them into categories: status, t
   - Type:Refactor -> refactor/proj-init
   - Type:Hotfix -> hotfix/proj-init
 
-## Commit message convention
+## Commit message
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 
 
 
-## Merge request title convention
+## Merge request title
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 
 
