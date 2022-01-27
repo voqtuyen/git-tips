@@ -15,7 +15,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 - Use red color for SUB_CATEGORY like `Delayed`, `High`, `Bug`
 
 ## Branch naming convention
-- Branch name should follow `Type` label and the format looks like this: {feature, bug, refactor, hotfix}/[BRANCH_NAME]
+- Branch name should follow `Type` label and the format looks like this: `{feature, bug, refactor, hotfix}/[BRANCH_NAME]`
 - Make sure that label type and branch name are consistent 
   - Type:Feature -> feature/proj-init
   - Type:Bug -> bug/proj-init
