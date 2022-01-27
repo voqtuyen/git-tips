@@ -20,9 +20,13 @@ Instead of flattening all labels, we could group them into categories: status, t
 #### Use semantic coloring
 ![Semantic coloring](./assets/Semantic-coloring.png)
 
-- Use green color for SUB_CATEGORY like `Open`, `Feature`, `Low`
-- Use yellow color for SUB_CATEGORY like `In-Progress`, `Refactor`, `Normal`
-- Use red color for SUB_CATEGORY like `Delayed`, `High`, `Bug`
+- Use blue color (Informative) for `SUB_CATEGORY` like `Pending`
+- Use green color (Positive) for `SUB_CATEGORY` like `Feature`, `Low`
+- Use orage color (Notice) for `SUB_CATEGORY` like `In-Progress`, `Refactor`, `Normal`
+- Use red color (Negative) for `SUB_CATEGORY` like `Delayed`, `High`, `Bug`, 'Hotfix'
+
+Within each color, you can change color contrast to indicate different importance levels.
+![Semantic colors](https://spectrum.adobe.com/static/images/color_semantic_desktop@2x_LNW6UD62tQ4a2LEbrcElu_1611634721087.png)
 
 ### 3. Branch naming
 - Branch name should follow `Type` label and the format looks like this: `{feature, bug, refactor, hotfix}/[BRANCH_NAME]`
@@ -53,3 +57,5 @@ Instead of flattening all labels, we could group them into categories: status, t
 
 ## Reference
 1. What is sentence case?. https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html
+2. Semantic colors. https://spectrum.adobe.com/page/color/
+
