@@ -2,7 +2,7 @@
 
 ### 1. Label
 #### Divide the labels into categories 
-Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now [MAIN-CATEGORY]_[SUB-CATEGORY]
+Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now `[MAIN-CATEGORY]_[SUB-CATEGORY]`
 - Status: `Status:Open`, `Status:In-Progress`, `Status:Pending`, `Status:Completed`, `Status: Delayed`
 - Type: `Type:Feature`, `Type:Bug`, `Type:Refactor`, `Type:Hotfix`, `Type:Research`
 - Priority: `Priority:Low`, `Priority:Normal`, `Priority:High`, `Priority:Critical`
@@ -11,7 +11,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 ![Semantic coloring](./assets/Semantic-coloring.png)
 
 - Use blue color (Informative) for `SUB_CATEGORY` like `Pending`
-- Use green color (Positive) for `SUB_CATEGORY` like `Feature`, `Low`
+- Use green color (Positive) for `SUB_CATEGORY` like `Feature`, `Low`, `Completed`
 - Use orange color (Notice) for `SUB_CATEGORY` like `In-Progress`, `Refactor`, `Normal`
 - Use red color (Negative) for `SUB_CATEGORY` like `Delayed`, `High`, `Bug`, `Hotfix`
 
