@@ -5,7 +5,7 @@
 ### 1. Label
 #### Divide the labels into categories 
 Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now `[MAIN-CATEGORY]_[SUB-CATEGORY]`
-- Status: `Status:Open`, `Status:In-Progress`, `Status:Pending`, `Status:Completed`, `Status: Delayed`
+- Status: `Status:Open`, `Status:In-Progress`, `Status:Pending`, `Status:Completed`, `Status:Delayed`
 - Type: `Type:Feature`, `Type:Bug`, `Type:Refactor`, `Type:Hotfix`, `Type:Research`
 - Priority: `Priority:Low`, `Priority:Normal`, `Priority:High`, `Priority:Critical`
 
