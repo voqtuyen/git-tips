@@ -1,5 +1,7 @@
 # Tips for effective git
 
+## General Git
+
 ### 1. Label
 #### Divide the labels into categories 
 Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now `[MAIN-CATEGORY]_[SUB-CATEGORY]`
@@ -55,11 +57,12 @@ Within each color, you can change color contrast to indicate different importanc
 ### 7. Branching
 
 
+## Github
 
-### 8. .github Repository
+### 1. .github repository
 
 
-### 9. user_name Repository
+### 2. user_name repository
 
 
 ## Reference
