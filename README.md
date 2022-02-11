@@ -1,15 +1,14 @@
 # Tips for effective git
 
-## General Git
 
-### 1. Label
-#### Divide the labels into categories 
+## 1. Label
+### Divide the labels into categories 
 Instead of flattening all labels, we could group them into categories: status, type, priority. The format for label now `[MAIN-CATEGORY]_[SUB-CATEGORY]`
 - Status: `Status:Open`, `Status:In-Progress`, `Status:Pending`, `Status:Completed`, `Status:Delayed`
 - Type: `Type:Feature`, `Type:Bug`, `Type:Refactor`, `Type:Hotfix`, `Type:Research`
 - Priority: `Priority:Low`, `Priority:Normal`, `Priority:High`, `Priority:Critical`
 
-#### Use semantic coloring
+### Use semantic coloring
 ![Semantic coloring](./assets/Semantic-coloring.png)
 
 - Use blue color (Informative) for `SUB_CATEGORY` like `Pending`
@@ -20,7 +19,7 @@ Instead of flattening all labels, we could group them into categories: status, t
 Within each color, you can change color contrast to indicate different importance levels.
 ![Semantic colors](https://spectrum.adobe.com/static/images/color_semantic_desktop@2x_LNW6UD62tQ4a2LEbrcElu_1611634721087.png)
 
-### 2. Issue 
+## 2. Issue 
 - Issue titles should also be consistent with `Type` label as much as possible
   - Use `Implement/Add/Create/Build + [FEATURE_NAME]` for `Type:Feature` labels
   - Use `Fix + [BUG_NAME]` for `Type:Bug` labels
@@ -30,7 +29,7 @@ Within each color, you can change color contrast to indicate different importanc
   - In other cases, you should name the issue title with this pattern: `Verb` + `Noun phrase`
 - Issue body
 
-### 3. Branch naming
+## 3. Branch naming
 - Branch name should follow `Type` label and the format looks like this: `{feature, bug, refactor, hotfix}/[BRANCH_NAME]`
 - Use lower case for branch naming
 - Use hyphens (-) as separators
@@ -42,27 +41,26 @@ Within each color, you can change color contrast to indicate different importanc
   - `Type:Hotfix` -> `hotfix/proj-init`
   - `Type:Research` -> `research/proj-init`
 
-### 4. Commit message
+## 4. Commit message
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization
 - Folow the pattern `Verb` + `Noun phrase` where verbs are usually `Implement, Add, Fix, Change, Update, Create, Research`
 
-### 5. Merge request
+## 5. Merge request
 - Use [sentence case](https://www.k-state.edu/grad/academics/etdr/write/sentence-case.html) capitalization for title
 
 
-### 6. Tag
+## 6. Tag
 
 
 
-### 7. Branching
+## 7. Branching
 
 
-## Github
+## 8. Template
+### Issue template
+- You can create default issue templates as suggestions about the structure of the issues
+- Templates standardize the structure of the issues for all contributors of the repository
 
-### 1. .github repository
-
-
-### 2. user_name repository
 
 
 ## Reference
